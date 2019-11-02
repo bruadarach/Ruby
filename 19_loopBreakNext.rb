@@ -94,3 +94,27 @@ puts "loop end"
 # 10
 # 10
 # loop end
+
+
+i = 1
+
+while i <= 10
+    #puts i   
+
+    if i == 5
+        i += 1 
+        next
+    end 
+
+    puts i   
+    i += 1
+end 
+# 1
+# 2
+# 3
+# 4
+# 6
+# 7
+# 8
+# 9
+# 10
